@@ -39,11 +39,12 @@ var game = {
 
 	// Run on game resources loaded.
 	"loaded" : function () {
+                //game characters
                 me.pool.register("mario", game.PlayerEntity, true);
                 me.pool.register("BadGuy", game.BadGuy);
-                
+                //level trigger
                 me.pool.register("levelTrigger", game.LevelTrigger);
-            
+                //Game states
 		me.state.set(me.state.MENU, new game.TitleScreen());
 		me.state.set(me.state.PLAY, new game.PlayScreen());
 

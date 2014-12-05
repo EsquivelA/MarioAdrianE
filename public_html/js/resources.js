@@ -4,10 +4,15 @@ game.resources = [
 	 * @example
 	 * {name: "example", type:"image", src: "data/img/example.png"},
 	 */
+        //image for background tiles
         {name: "background-tiles", type:"image", src: "data/img/background-tiles.png"},
+        //image for meta tiles
         {name: "meta-tiles", type:"image", src: "data/img/meta-tiles.png"},
+        //image for mario character
         {name: "mario", type:"image", src: "data/img/player1.png"},
+        //image for title screen
         {name: "title-screen", type:"image", src: "data/img/title-screen.png"},
+        //image for Bad Guy character
         {name: "slime", type:"image", src: "data/img/slime-spritesheet.png"},
 
 	/* Atlases 
@@ -20,6 +25,7 @@ game.resources = [
 	 * {name: "example01", type: "tmx", src: "data/map/example01.tmx"},
 	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
  	 */
+        //gets the maps I made on Tiled
         {name: "Level01", type: "tmx", src: "data/map/level04.tmx"},
         {name: "Level02", type: "tmx", src: "data/map/level05.tmx"}
 
