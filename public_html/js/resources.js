@@ -14,6 +14,8 @@ game.resources = [
         {name: "title-screen", type:"image", src: "data/img/title-screen.png"},
         //image for Bad Guy character
         {name: "slime", type:"image", src: "data/img/slime-spritesheet.png"},
+        //image for mushroom power up
+         {name: "mushroom", type:"image", src: "data/img/mushroom.png"},
 
 	/* Atlases 
 	 * @example
